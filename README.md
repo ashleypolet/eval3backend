@@ -60,3 +60,45 @@ Todos los formularios están validados visualmente y estilizados con Bootstrap.
 (ForeignKey guia → muchos tours pueden estar a cargo de un mismo guía)
 
 Es una relación muchos-a-uno tanto desde Tour → Zona, como Tour → Guía.
+
+# instrucciones para ejecutar el backend - frontend
+BACKEND – Django (API)
+Ubicación:
+/registros (o la carpeta donde está manage.py)
+
+Pasos:
+Abrir terminal en la raíz del proyecto:
+cd registro_actividades_turisticas_y_guias
+
+Instalar dependencias del backend:
+pip install -r requirements.txt
+
+Aplicar migraciones:
+python manage.py makemigrations
+python manage.py migrate
+
+Levantar el servidor de desarrollo:
+python manage.py runserver
+
+Acceder a la API en el navegador:
+http://localhost:8000/api/
+
+
+FRONTEND – React (interfaz web)
+Ubicación:
+/frontend_turismo
+
+Pasos:
+Entrar a la carpeta del frontend:
+cd frontend_turismo
+
+Instalar dependencias (una vez):
+npm install
+
+Iniciar el servidor React:
+npm start
+
+Acceder a la interfaz web:
+http://localhost:3000
+
+El backend debe estar corriendo antes de levantar el frontend
