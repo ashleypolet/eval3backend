@@ -61,6 +61,26 @@ Todos los formularios están validados visualmente y estilizados con Bootstrap.
 
 Es una relación muchos-a-uno tanto desde Tour → Zona, como Tour → Guía.
 
+# Capturas de pantalla del frontend funcionand
+### listado de Zonas Turisticas
+![Listado de zonas](./CapturasEvidencia/zonalist.png)
+
+### Crear guia
+![Crear guia](./CapturasEvidencia/crearguia.png)
+
+### Editar tour
+![Editar tour](./CapturasEvidencia/editartour.png)
+
+### Zona creada
+![Zona creada](./CapturasEvidencia/creadazona.png)
+
+### Eliminar guia
+![Eliminar guia](./CapturasEvidencia/guiaeliminada.png)
+
+### Actualizar tour
+![Actualizar tour](./CapturasEvidencia/touractualizado.png)
+
+
 # instrucciones para ejecutar el backend - frontend
 BACKEND – Django (API)
 Ubicación:
